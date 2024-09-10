@@ -1,0 +1,81 @@
+footer {
+    background-color: #333;
+    color: #090000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+/* Style the social media buttons */
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-lg-square {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  padding: 0;
+  border-radius: 0;
+}
+
+.btn-dark {
+  background-color: #333;
+  border-color: #333;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+/* Style the copyright section */
+.copyright {
+  background-color: #3508e6;
+  padding: 1rem;
+  text-align: center;
+}
+
+.copyright .row {
+  justify-content: space-between;
+}
+
+.copyright .col-md-6 {
+  padding: 0;
+}
+
+.copyright a {
+  text-decoration: none;
+  border-bottom: 1px solid #871506;
+}
+
+.copyright a:hover {
+  color: #000000;
+}
+
+/* Make the copyright section responsive */
+@media (max-width: 768px) {
+  .copyright .row {
+    flex-direction: column;
+  }
+  .copyright .col-md-6 {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Style the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Make the container responsive */
+@media (max-width: 1200px) {
+  .container {
+    padding: 0.5rem;
+  }
+}

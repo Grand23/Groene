@@ -1,0 +1,61 @@
+/* Education Section Styles */
+
+#education {
+  background-color: #f7f7f7; /* Optional background color for the education section */
+}
+
+.cc-education {
+  padding: 50px 0; /* Add some padding to the container */
+}
+
+.cc-education .title {
+  font-size: 24px; /* Increase the font size for the title */
+  margin-bottom: 20px; /* Add some margin bottom to the title */
+}
+
+.cc-education .card {
+  border: none; /* Remove the border from the card */
+  box-shadow: none; /* Remove the box shadow from the card */
+  padding: 0; /* Remove the padding from the card */
+}
+
+.cc-education .card-body {
+  padding: 20px; /* Add some padding to the card body */
+}
+
+.cc-education-header {
+  background-color: #337ab7; /* Set the background color for the education header */
+  color: #fff; /* Set the text color for the education header */
+  padding: 10px; /* Add some padding to the education header */
+  border-radius: 5px; /* Add some border radius to the education header */
+}
+
+.cc-education-header p {
+  margin-bottom: 0; /* Remove the margin bottom from the paragraph */
+}
+
+.cc-education-header .h4 {
+  margin-top: 0; /* Remove the margin top from the h4 heading */
+}
+
+.cc-education .category {
+  font-size: 16px; /* Set the font size for the category */
+  color: #666; /* Set the text color for the category */
+  margin-bottom: 10px; /* Add some margin bottom to the category */
+}
+
+.cc-education ul {
+  list-style: none; /* Remove the list style */
+  padding: 0; /* Remove the padding */
+  margin: 0; /* Remove the margin */
+}
+
+.cc-education ul li {
+  margin-bottom: 10px; /* Add some margin bottom to the list item */
+}
+
+.cc-education ul li:before {
+  content: "\2022"; /* Add a bullet point before each list item */
+  margin-right: 10px; /* Add some margin right to the bullet point */
+  color: #666; /* Set the color for the bullet point */
+}

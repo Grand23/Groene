@@ -1,0 +1,64 @@
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-badge {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #337ab7;
+  height: 10px;
+  border-radius: 5px;
+  transition: width 2s ease-in-out;
+}
+
+.progress-value {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  float: right;
+}
+
+.progress-primary .progress-bar {
+  background-color: #337ab7;
+}
+
+.progress-primary .progress-value {
+  color: #2ad80c;
+}
+
+/* Add this to make the progress bars display the correct widths */
+.progress-bar {
+  width: attr(data-width);
+}
+
+/* Add this to make the progress values display the correct percentages */
+.progress-value {
+  content: attr(data-value);
+}
+
+/* Add this to make the progress bars display the correct measuring rates and their percentages */
+.progress-container[data-aos="progress-full"] .progress-bar {
+  animation: progress-full 2s ease-in-out;
+}
+
+@keyframes progress-full {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: attr(data-width);
+  }
+}
