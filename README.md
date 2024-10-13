@@ -17,6 +17,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [My project]().
+when the project is displaying the journey through my school years and what i have been learning. 
 
 ## Running end-to-end tests
 
